@@ -1,0 +1,9 @@
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  deno_import_map = "netlify_import_map.json"
+#  external_node_modules = ["@langchain/openai"]
+
+[[edge_functions]]
+  path = "/"
+  function = "index"

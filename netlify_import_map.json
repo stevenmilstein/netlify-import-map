@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@langchain/openai": "npm:@langchain/core/"
+  }
+}
